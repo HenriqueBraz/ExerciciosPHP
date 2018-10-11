@@ -10,7 +10,7 @@
 		if($a != "Anderson"){
 
 
-          		echo $a;
+          		$arr2 =([$a]) ;
 	                
         	}
 		
@@ -23,8 +23,14 @@
 
 	for ($i = 0; $i < $cont; $i++){
 
-	 echo "Anderson";
+	 array_push($arr2, "Anderson");
 
+	}
+	
+	foreach($arr2 as $b){
+		
+		print_r($b);
+		
 	}
 
 
